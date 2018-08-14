@@ -10,7 +10,7 @@
       <TargetName>STM32746G_Nucleo</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060300::V5.06 update 3 (build 300)::ARMCC</pCCUsed>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F746ZGTx</Device>
@@ -133,11 +133,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4107</DriverSelection>
+            <DriverSelection>4100</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -335,7 +335,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F746xx,USE_STM32F7XX_NUCLEO_144ADAFRUIT_TFT_JOY_SD_ID802</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Src;../../../../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include;../../../../../../Drivers/STM32F7xx_HAL_Driver/Inc;../../../../../../Drivers/BSP/STM32F7xx_Nucleo_144;../../../../../../Drivers/BSP/Components/Common;../../../../../../Middlewares/Third_Party/LwIP/src/include/;../../../../../../Middlewares/Third_Party/LwIP/system;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM7/r0p1;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include</IncludePath>
+              <IncludePath>../Inc;../Src;../../../../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include;../../../../../../Drivers/STM32F7xx_HAL_Driver/Inc;../../../../../../Drivers/BSP/STM32F7xx_Nucleo_144;../../../../../../Drivers/BSP/Components/Common;../../../../../../Middlewares/Third_Party/LwIP/src/include/;../../../../../../Middlewares/Third_Party/LwIP/system;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM7/r0p1;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include;..\..\..\..\..\..\Middlewares\MQTT</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -594,6 +594,11 @@
               <FileType>1</FileType>
               <FilePath>../Src/stm32f7xx_hal_timebase_tim.c</FilePath>
             </File>
+            <File>
+              <FileName>MqttThread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MqttThread.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -813,6 +818,61 @@
               <FileName>httpd.c</FileName>
               <FileType>1</FileType>
               <FilePath>../../../../../../Middlewares/Third_Party/LwIP/src/apps/httpd/httpd.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MQTT</GroupName>
+          <Files>
+            <File>
+              <FileName>MQTTConnectClient.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTConnectClient.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTConnectServer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTConnectServer.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTDeserializePublish.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTDeserializePublish.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTFormat.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTFormat.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTPacket.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTPacket.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTSerializePublish.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTSerializePublish.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTSubscribeClient.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTSubscribeClient.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTSubscribeServer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTSubscribeServer.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTUnsubscribeClient.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTUnsubscribeClient.c</FilePath>
+            </File>
+            <File>
+              <FileName>MQTTUnsubscribeServer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Middlewares\MQTT\MQTTUnsubscribeServer.c</FilePath>
             </File>
           </Files>
         </Group>

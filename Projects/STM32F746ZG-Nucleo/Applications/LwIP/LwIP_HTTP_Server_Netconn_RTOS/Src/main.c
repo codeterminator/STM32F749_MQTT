@@ -133,6 +133,8 @@ static void StartThread(void const * argument)
   
   /* Notify user about the network interface config */
   User_notification(&gnetif);
+	
+	
   
 #ifdef USE_DHCP
   /* Start DHCPClient */
