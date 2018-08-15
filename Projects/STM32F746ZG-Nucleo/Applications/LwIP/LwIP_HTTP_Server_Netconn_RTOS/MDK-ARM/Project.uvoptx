@@ -151,7 +151,24 @@
           <Name>-U0670FF565251887067032120 -O2254 -S0 -C0 -A0 -N00("ARM CoreSight SW-DP") -D00(5BA02477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC1000 -FN2 -FF0STM32F7x_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:STM32F746ZG$Flash\STM32F7x_1024.FLM) -FF1STM32F7x_TCM.FLM -FS1200000 -FL1100000 -FP1($$Device:STM32F746ZG$Flash\STM32F7x_TCM.FLM)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint/>
+      <Breakpoint>
+        <Bp>
+          <Number>0</Number>
+          <Type>0</Type>
+          <LineNumber>1011</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>../../../../../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+      </Breakpoint>
       <WatchWindow1>
         <Ww>
           <count>0</count>
@@ -1240,7 +1257,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTConnectClient.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTConnectClient.c</PathWithFileName>
       <FilenameWithoutPath>MQTTConnectClient.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1249,10 +1266,10 @@
       <GroupNumber>14</GroupNumber>
       <FileNumber>78</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTConnectServer.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTConnectServer.c</PathWithFileName>
       <FilenameWithoutPath>MQTTConnectServer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1264,7 +1281,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTDeserializePublish.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTDeserializePublish.c</PathWithFileName>
       <FilenameWithoutPath>MQTTDeserializePublish.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1276,7 +1293,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTFormat.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTFormat.c</PathWithFileName>
       <FilenameWithoutPath>MQTTFormat.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1288,7 +1305,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTPacket.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTPacket.c</PathWithFileName>
       <FilenameWithoutPath>MQTTPacket.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1300,7 +1317,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTSerializePublish.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTSerializePublish.c</PathWithFileName>
       <FilenameWithoutPath>MQTTSerializePublish.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1312,7 +1329,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTSubscribeClient.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTSubscribeClient.c</PathWithFileName>
       <FilenameWithoutPath>MQTTSubscribeClient.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1324,7 +1341,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTSubscribeServer.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTSubscribeServer.c</PathWithFileName>
       <FilenameWithoutPath>MQTTSubscribeServer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1336,7 +1353,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTUnsubscribeClient.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTUnsubscribeClient.c</PathWithFileName>
       <FilenameWithoutPath>MQTTUnsubscribeClient.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1348,8 +1365,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\MQTTUnsubscribeServer.c</PathWithFileName>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\src\MQTTUnsubscribeServer.c</PathWithFileName>
       <FilenameWithoutPath>MQTTUnsubscribeServer.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>14</GroupNumber>
+      <FileNumber>87</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\..\..\..\Middlewares\MQTT\samples\baremetalserial\transport.c</PathWithFileName>
+      <FilenameWithoutPath>transport.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
