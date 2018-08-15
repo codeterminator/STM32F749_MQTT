@@ -1,0 +1,11 @@
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTSubscribeClient.c
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTPacket.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTConnect.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTPublish.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTSubscribe.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTUnsubscribe.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTFormat.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\StackTrace.h
+stm32746g_nucleo\mqttsubscribeclient.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+stm32746g_nucleo\mqttsubscribeclient.o: ..\..\..\..\..\..\Middlewares\MQTT\src\MQTTPacket.h
+stm32746g_nucleo\mqttsubscribeclient.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
